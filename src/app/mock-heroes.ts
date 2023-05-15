@@ -19,5 +19,5 @@ export const HEROES: Hero[] = [
   {id: 27, name: 'Asdrubael Vect'},
   {id: 28, name: 'Ragnar Blackmane'},
   {id: 29, name: 'Cato Sicarius'},
-  {id: 30, name: 'Frostblade'}
+  {id: 30, name: 'Ezekiel Abaddon'}
 ];
