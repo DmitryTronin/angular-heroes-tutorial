@@ -14,4 +14,13 @@ export class HeroService {
     return heroes;
   }
   constructor(private messageService: MessageService) { }
+  
+  getHero(id: number): Observable<Hero> {
+
+    // TODO: error handling (id not exists)
+    const hero = HEROES.find(h => h.id === id)!;
+    this.messageService.add(`HeroService: fetched hero id=${id}`);
+    return of(hero);
+  }
+
 }
