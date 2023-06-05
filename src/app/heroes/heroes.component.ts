@@ -4,6 +4,11 @@ import { Hero } from "../hero";
 import { HeroService } from "../hero.service";
 import { MessageService } from "../message.service";
 
+/**
+ * HeroesComponent is an Angular Component that provides functionality for managing a list of heroes.
+ * This component includes functionality to get a list of heroes, add a hero, and delete a hero.
+ * The component relies on the services provided by HeroService for these operations.
+ * It implements the OnInit interface to
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
